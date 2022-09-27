@@ -1,0 +1,5 @@
+<div class="gifs">
+  <ng-container *ngFor="let gif of gifs">
+    <img class="gifs__item" [src]="gif.images.downsized.url"/>
+  </ng-container>
+</div>

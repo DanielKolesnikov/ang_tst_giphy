@@ -1,0 +1,16 @@
+.gifs {
+  display: grid;
+  grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+  height: 87vh;
+  width: 60vw;
+  justify-items: center;
+  margin: 0 auto;
+  gap: 0.6em;
+
+
+  &__item {
+    height: 29vh;
+    width: 19.6vw;
+    border-radius: 1em;
+  }
+}

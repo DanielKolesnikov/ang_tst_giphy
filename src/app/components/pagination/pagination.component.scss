@@ -1,0 +1,23 @@
+
+$marginConst : 10%;
+
+.arrows {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 50%;
+  width: 100%;
+
+  &__left {
+    margin-left: $marginConst ;
+
+  }
+  &__right{
+    margin-right: $marginConst ;
+  }
+
+  .arrow{
+
+  }
+
+}
